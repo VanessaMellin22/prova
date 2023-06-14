@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
+
+h1{
+    font-size: 5rem;
+    margin-top: 10rem;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+}
+
+input{
+    height: 4rem;
+    width: 30rem;
+    border-radius: 4rem;
+
+
+}
+
+button{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 2rem;
+}
+
+b{
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+#content::-webkit-scrollbar{
+    display: none;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    height: 58rem;
+    padding: 1rem;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;    
+}
+
+#div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#sesi{
+    background-color: rgb(200, 5, 5);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height: 12rem;
+    width: 23rem;
+}
+
